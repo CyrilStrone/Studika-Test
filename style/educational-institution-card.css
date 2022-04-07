@@ -510,13 +510,13 @@ body {
 
 .uz-large__navigation_position-standart {
     position: static;
+    display: inline-block;
     margin-right: 32px;
     margin-top: 32px;
 }
 
 .uz-large__navigation_theme-standart {
     width: 280px;
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
@@ -583,4 +583,406 @@ body {
     text-transform: uppercase;
     /* 767676 дескриптор */
     color: #767676;
+}
+
+
+/* uz-large__detailed */
+
+.uz-large__detailed_position-standart {
+    position: absolute;
+    display: inline-block;
+    margin-top: 32px;
+    width: 904px;
+}
+
+.uz-large__detailed_theme-standart {}
+
+.uz-large__detailed__basicInformation_position-standart {
+    position: static;
+    display: inline;
+}
+
+.uz-large__detailed__basicInformation-title_position-standart {
+    position: static;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 16px;
+}
+
+.uz-large__detailed__basicInformation-title_theme-standart {
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 36px;
+    color: #222222;
+}
+
+.uz-large__detailed__basicInformation-places_position-standart {
+    margin-top: 16px;
+    position: relative;
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.uz-large__detailed__basicInformation-places_theme-standart {
+    flex-direction: row;
+    align-items: center;
+    padding: 24px;
+    box-sizing: border-box;
+    width: 444px;
+    height: 106px;
+    background: #FFFFFF;
+    /* shadow */
+    box-shadow: 0px 7px 13px rgba(49, 71, 129, 0.07);
+    border-radius: 10px;
+}
+
+.uz-large__detailed__basicInformation-places__paid_position-standart {
+    position: absolute;
+}
+
+.uz-large__detailed__basicInformation-places__paid_theme-standart {
+    width: 190px;
+    height: 58px;
+}
+
+.uz-large__detailed__basicInformation-places__budgetary_position-standart {
+    float: right;
+}
+
+.uz-large__detailed__basicInformation-places__budgetary_theme-standart {
+    width: 190px;
+    height: 58px;
+}
+
+.uz-large__detailed__basicInformation-places__paid-number_position-standart {}
+
+.uz-large__detailed__basicInformation-places__paid-number_theme-standart {
+    width: 84px;
+    height: 36px;
+    /* D H3 Formular 31 */
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 36px;
+    /* identical to box height, or 116% */
+    text-align: right;
+    /* 0656B4 действие */
+    color: #0656B4;
+}
+
+.uz-large__detailed__basicInformation-places__paid-name_position-standart {}
+
+.uz-large__detailed__basicInformation-places__paid-name_theme-standart {
+    width: 94px;
+    height: 22px;
+    /* D M Базовый Open Sans 14 */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+    /* 767676 дескриптор */
+    color: #767676;
+}
+
+.uz-large__detailed__basicInformation-places__budgetary-number_position-standart {}
+
+.uz-large__detailed__basicInformation-places__budgetary-number_theme-standart {
+    width: 84px;
+    height: 36px;
+    /* D H3 Formular 31 */
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 36px;
+    /* identical to box height, or 116% */
+    text-align: right;
+    /* 0656B4 действие */
+    color: #0656B4;
+}
+
+.uz-large__detailed__basicInformation-places__budgetary-name_position-standart {}
+
+.uz-large__detailed__basicInformation-places__budgetary-name_theme-standart {
+    width: 115px;
+    height: 22px;
+    /* D M Базовый Open Sans 14 */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+    /* 767676 дескриптор */
+    color: #767676;
+}
+
+.uz-large__detailed__basicInformation-top_position-standart {
+    position: static;
+    display: inline-block;
+    margin-top: 16px;
+}
+
+.uz-large__detailed__basicInformation-top_theme-standart {
+    width: 444px;
+    height: 106px;
+    /* FFFFFF белый на сером */
+    background: #FFFFFF;
+    /* shadow */
+    box-shadow: 0px 7px 13px rgba(49, 71, 129, 0.07);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 24px;
+}
+
+.uz-large__detailed__basicInformation-top__republic_position-standart {
+    position: absolute;
+}
+
+.uz-large__detailed__basicInformation-top__republic_theme-standart {
+    width: 190px;
+    height: 58px;
+}
+
+.uz-large__detailed__basicInformation-top__country_position-standart {
+    float: right;
+}
+
+.uz-large__detailed__basicInformation-top__country_theme-standart {
+    width: 190px;
+    height: 58px;
+}
+
+.uz-large__detailed__basicInformation-top__republic-number_position-standart {}
+
+.uz-large__detailed__basicInformation-top__republic-number_theme-standart {
+    width: 118px;
+    height: 36px;
+    /* D H3 Formular 31 */
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 36px;
+    /* identical to box height, or 116% */
+    text-align: right;
+    /* 222222 основной текст */
+    color: #222222;
+}
+
+.uz-large__detailed__basicInformation-top__republic-name_position-standart {}
+
+.uz-large__detailed__basicInformation-top__republic-name_theme-standart {
+    width: 135px;
+    height: 22px;
+    /* D M Базовый Open Sans 14 */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+    /* 767676 дескриптор */
+    color: #767676;
+}
+
+.uz-large__detailed__basicInformation-top__country-number_position-standart {}
+
+.uz-large__detailed__basicInformation-top__country-number_theme-standart {
+    width: 137px;
+    height: 36px;
+    /* D H3 Formular 31 */
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 36px;
+    /* identical to box height, or 116% */
+    text-align: right;
+    /* 222222 основной текст */
+    color: #222222;
+}
+
+.uz-large__detailed__basicInformation-top__country-name_position-standart {}
+
+.uz-large__detailed__basicInformation-top__country-name_theme-standart {
+    width: 135px;
+    height: 22px;
+    /* D M Базовый Open Sans 14 */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+    /* 767676 дескриптор */
+    color: #767676;
+}
+
+.uz-large__detailed__basicInformation-peculiarities_position-standart {
+    margin-top: 16px;
+    position: static;
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.uz-large__detailed__basicInformation-peculiarities_theme-standart {
+    width: 660px;
+    height: 178px;
+    background: #FFFFFF;
+    /* shadow */
+    box-shadow: 0px 7px 13px rgba(49, 71, 129, 0.07);
+    border-radius: 10px;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.uz-large__detailed__basicInformation-peculiarities__line_position-standart {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.uz-large__detailed__basicInformation-peculiarities__line_theme-standart {
+    height: 1px;
+    width: 612px;
+    background: #D8D8D8;
+}
+
+.uz-large__detailed__basicInformation-peculiarities__block_position-standart {
+    display: inline-block;
+}
+
+.uz-large__detailed__basicInformation-peculiarities__block_theme-standart {
+    width: 612px;
+    height: 32px;
+}
+
+.uz-large__detailed__basicInformation-peculiarities__block-name_position-standart {
+    display: inline-block;
+}
+
+.uz-large__detailed__basicInformation-peculiarities__block-name_theme-standart {
+    width: 500px;
+    height: 30px;
+    /* D Текст Open Sans 16 */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    /* 767676 дескриптор */
+    color: #767676;
+}
+
+.uz-large__detailed__basicInformation-peculiarities__block-icon_position-standart {
+    float: right;
+}
+
+.uz-large__detailed__basicInformation-peculiarities__block-icon_theme-standart {
+    width: 32px;
+    height: 32px;
+    background-image: url(../images/check.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.uz-large__detailed__basicInformation-peculiarities__block-icon_theme-close {
+    width: 32px;
+    height: 32px;
+    background-image: url(../images/close_outlined.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.uz-large__detailed__basicInformation-representative_position-standart {
+    position: absolute;
+    margin-top: 16px;
+    display: inline-block;
+}
+
+.uz-large__detailed__basicInformation-representative_theme-standart {
+    width: 228px;
+    height: 178px;
+    /* FFFFFF белый на сером */
+    background: #FFFFFF;
+    /* shadow */
+    box-shadow: 0px 7px 13px rgba(49, 71, 129, 0.07);
+    border-radius: 10px;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.uz-large__detailed__basicInformation-representative__title_position-standart {
+    margin-top: 23px;
+}
+
+.uz-large__detailed__basicInformation-representative__title_theme-standart {
+    width: 131px;
+    height: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    /* 222222 основной текст */
+    color: #222222;
+}
+
+.uz-large__detailed__basicInformation-representative__button_position-standart {
+    margin-top: 16px;
+}
+
+.uz-large__detailed__basicInformation-representative__button_theme-standart {
+    width: 180px;
+    height: 48px;
+    /* 767676 дескриптор */
+    border: 1px solid #767676;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 14px 24px;
+    font-family: Formular;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.uz-large__detailed__basicInformation-title-two_position-standart {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.uz-large__detailed__basicInformation-title-two_theme-standart {
+    width: 152px;
+    height: 24px;
+    /* D H4 Formular 18 */
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    /* 222222 основной текст */
+    color: #222222;
+}
+
+.uz-large__detailed__basicInformation-passingScore_position-standart {
+    display: inline-block;
+}
+
+.uz-large__detailed__basicInformation-passingScore_theme-standart {
+    width: 904px;
+    height: 307px;
+    background: #FFFFFF;
+    /* shadow */
+    box-shadow: 0px 7px 13px rgba(49, 71, 129, 0.07);
+    border-radius: 10px;
 }
