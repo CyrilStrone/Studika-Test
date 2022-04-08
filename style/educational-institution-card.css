@@ -1419,3 +1419,190 @@ body {
     text-transform: uppercase;
     white-space: nowrap;
 }
+
+
+/* uz-large__detailed__AboutTheUniversity */
+
+.uz-large__detailed__AboutTheUniversity_position-standart {
+    margin-top: 48px;
+}
+
+.uz-large__detailed__AboutTheUniversity-title_position-standart {
+    position: relative;
+}
+
+.uz-large__detailed__AboutTheUniversity-title_theme-standart {}
+
+.uz-large__detailed__AboutTheUniversity-title__name_position-standart {}
+
+.uz-large__detailed__AboutTheUniversity-title__name_theme-standart {
+    width: 269px;
+    height: 36px;
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 36px;
+    /* identical to box height, or 116% */
+    /* 222222 основной текст */
+    color: #222222;
+}
+
+.uz-large__detailed__AboutTheUniversity-title__nameUn_position-standart {
+    position: absolute;
+    right: 0;
+    top: 8px;
+}
+
+.uz-large__detailed__AboutTheUniversity-title__nameUn_theme-standart {
+    width: 736px;
+    height: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    text-align: right;
+    /* A7A7A7 иконки */
+    color: #A7A7A7;
+}
+
+.uz-large__detailed__AboutTheUniversity-pictures_position-standart {
+    margin-top: 16px;
+    position: relative;
+}
+
+.uz-large__detailed__AboutTheUniversity-pictures_theme-standart {
+    width: 904px;
+    height: 360px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.uz-large__detailed__AboutTheUniversity-pictures__big_position-standart {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.uz-large__detailed__AboutTheUniversity-pictures__big_theme-standart {
+    width: 536px;
+    height: 360px;
+    border-radius: 10px 0px 0px 10px;
+    background-image: url(../images/unpicture1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.uz-large__detailed__AboutTheUniversity-pictures__group-left_position-standart {
+    position: absolute;
+    left: 544px;
+}
+
+.uz-large__detailed__AboutTheUniversity-pictures__group-left_theme-standart {
+    width: 176px;
+    height: 360px;
+}
+
+.uz-large__detailed__AboutTheUniversity-pictures__group-right_position-standart {
+    position: absolute;
+    right: 0;
+}
+
+.uz-large__detailed__AboutTheUniversity-pictures__group-right_theme-standart {
+    width: 176px;
+    height: 360px;
+}
+
+.uz-large__detailed__AboutTheUniversity-pictures__group-left__picture_position-standart {
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.uz-large__detailed__AboutTheUniversity-pictures__group-left__picture_theme-one {
+    width: 176px;
+    height: 176px;
+    background-image: url(../images/unpicture2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.uz-large__detailed__AboutTheUniversity-pictures__group-left__picture_theme-two {
+    width: 176px;
+    height: 176px;
+    background-image: url(../images/unpicture5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.uz-large__detailed__AboutTheUniversity-pictures__group-right__picture_position-standart {
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.uz-large__detailed__AboutTheUniversity-pictures__group-right__picture_theme-one {
+    width: 176px;
+    height: 176px;
+    background-image: url(../images/unpicture3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0px 10px 0px 0px;
+}
+
+.uz-large__detailed__AboutTheUniversity-pictures__group-right__picture_theme-two {
+    width: 176px;
+    height: 176px;
+    background-image: url(../images/unpicture4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0px 0px 10px 0px;
+}
+
+.uz-large__detailed__AboutTheUniversity-description_position-standart {
+    position: relative;
+    margin-top: 8px;
+}
+
+.uz-large__detailed__AboutTheUniversity-description_theme-standart {
+    width: 904px;
+    height: 320px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.uz-large__detailed__AboutTheUniversity-description__h_position-standart {}
+
+.uz-large__detailed__AboutTheUniversity-description__h_theme-standart {
+    width: 856px;
+    height: 240px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+    /* 222222 основной текст */
+    color: #222222;
+    align-self: stretch;
+}
+
+.uz-large__detailed__AboutTheUniversity-description__all_position-standart {
+    position: absolute;
+    bottom: 24px;
+}
+
+.uz-large__detailed__AboutTheUniversity-description__all_theme-standart {
+    width: 106px;
+    height: 24px;
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    /* 0656B4 действие */
+    color: #0656B4;
+}
