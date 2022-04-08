@@ -552,7 +552,6 @@ body {
 
 .uz-large__navigation-drawer__name_theme-standart {
     width: 200px;
-    height: 20px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -562,6 +561,11 @@ body {
     letter-spacing: 0.03em;
     /* 767676 дескриптор */
     color: #767676;
+    cursor: pointer;
+}
+
+.uz-large__navigation-drawer__name_theme-standart:hover {
+    color: #222222;
 }
 
 .uz-large__navigation-drawer__count_position-standart {
