@@ -203,7 +203,6 @@ body {
 .uz-large__cards-content__info_position-standart {
     position: static;
     left: 0px;
-    top: 78px;
 }
 
 .uz-large__cards-content__info_theme-standart {
@@ -1615,4 +1614,8 @@ body {
     padding: 24px;
     width: 856px;
     height: 259px;
+}
+
+.uz-large__cards-content__button_theme-standart {
+    display: none;
 }

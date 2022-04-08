@@ -1,0 +1,173 @@
+@media screen and (max-width: 520px) {
+    .uz-large_position-mobile {}
+    .uz-large_theme-mobile {
+        width: 100%;
+    }
+    .uz-large__cards_position-mobile {}
+    .uz-large__cards_theme-mobile {
+        width: 100%;
+        height: 368px;
+    }
+    /* uz-large__cards-photo */
+    .uz-large__cards-photo__logo_position-mobile {
+        margin-left: 8px;
+        margin-top: 8px;
+    }
+    .uz-large__cards-photo__logo_theme-mobile {}
+    .uz-large__cards-photo_position-mobile {}
+    .uz-large__cards-photo_theme-mobile {
+        width: 100%;
+        height: 122px;
+        border-radius: 0px 0px 0px 0px;
+    }
+    .uz-large__cards-photo__button-reviews_position-mobile {}
+    .uz-large__cards-photo__button-reviews_theme-mobile {
+        display: none;
+    }
+    .uz-large__cards-photo__button-chances_position-mobile {
+        display: none;
+    }
+    .uz-large__cards-photo__button-chances_theme-mobile {}
+    /* uz-large__cards-content */
+    .uz-large__cards-content_position-mobile {}
+    .uz-large__cards-content_theme-mobile {
+        padding: 16px;
+        box-sizing: border-box;
+        width: 100%;
+        height: 246px;
+    }
+    .uz-large__cards-content__title_position-mobile {}
+    .uz-large__cards-content__title_theme-mobile {
+        width: 328px;
+        height: 66px;
+        font-family: 'Formular';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        /* or 122% */
+        /* 222222 основной текст */
+        color: #222222;
+    }
+    .uz-large__cards-content__info_position-mobile {
+        position: relative;
+        margin-top: 16px;
+        display: inline-block;
+    }
+    .uz-large__cards-content__info_theme-mobile {
+        width: 328px;
+        height: 68px;
+    }
+    .uz-large__cards-content__info-rate_position-mobile {
+        position: absolute;
+        top: 48px;
+    }
+    .uz-large__cards-content__info-rate_theme-mobile {}
+    .uz-large__cards-content__info-rate__star_position-mobile {}
+    .uz-large__cards-content__info-rate__star_theme-mobile {}
+    .uz-large__cards-content__info-rate__text_position-mobile {}
+    .uz-large__cards-content__info-rate__text_theme-mobile {}
+    .uz-large__cards-content__info-rate__count_position-mobile {}
+    .uz-large__cards-content__info-rate__count_theme-mobile {}
+    .uz-large__cards-content__info-circle_position-mobile {}
+    .uz-large__cards-content__info-circle_theme-mobile {
+        display: none;
+    }
+    .uz-large__cards-content__info-adress_position-mobile {
+        display: inline-block;
+        margin-left: 0px;
+        margin-bottom: 4px;
+    }
+    .uz-large__cards-content__info-adress_theme-mobile {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        /* identical to box height, or 154% */
+        /* 767676 дескриптор */
+        color: #767676;
+    }
+    .uz-large__cards-content__favorites_position-mobile {
+        right: 8px;
+        top: -48px;
+    }
+    .uz-large__cards-content__favorites_theme-mobile {
+        width: 88px;
+        height: 40px;
+    }
+    .uz-large__cards-content__favorites__like-button_position-mobile {}
+    .uz-large__cards-content__favorites__like-button_theme-mobile {
+        display: none;
+    }
+    .uz-large__cards-content__favorites__bell_position-mobile {
+        margin: 0;
+    }
+    .uz-large__cards-content__favorites__bell_theme-mobile {
+        border-radius: 49px;
+        background-color: #FFFFFF;
+    }
+    .uz-large__cards-content__favorites__share_position-mobile {
+        margin: 0;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .uz-large__cards-content__favorites__share_theme-mobile {
+        border-radius: 49px;
+        background-color: #FFFFFF;
+    }
+    .uz-large__cards-content__uploaded_position-mobile {
+        left: 0;
+        top: 270px;
+    }
+    .uz-large__cards-content__uploaded_theme-mobile {
+        width: 100%;
+        height: 20px;
+    }
+    .uz-large__cards-content__uploaded-update_position-mobile {
+        left: 16px;
+    }
+    .uz-large__cards-content__uploaded-update_theme-mobile {
+        width: 176px;
+        height: 20px;
+    }
+    .uz-large__cards-content__uploaded-error_position-mobile {
+        right: 16px;
+    }
+    .uz-large__cards-content__uploaded-error_theme-mobile {
+        width: 136px;
+        height: 20px;
+    }
+    .uz-large__cards-content__button_position-mobile {
+        display: block;
+        margin-top: 10px;
+        position: static;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .uz-large__cards-content__button_theme-mobile {
+        padding: 16px 24px;
+        box-sizing: border-box;
+        width: 328px;
+        background: #DFE9F5;
+        border-radius: 5px;
+        font-family: 'Formular';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #0656B4;
+        align-items: center;
+        text-align: center;
+    }
+    /* uz-large__navigation */
+    .uz-large__navigation_position-mobile {
+        display: none;
+    }
+    /* uz-large__detailed */
+    .uz-large__detailed_position-mobile {}
+    .uz-large__detailed_theme-mobile {
+        width: 100%;
+        margin-top: 76px;
+    }
+}
