@@ -1610,3 +1610,9 @@ body {
     /* 0656B4 действие */
     color: #0656B4;
 }
+
+#myfirstchart {
+    padding: 24px;
+    width: 856px;
+    height: 259px;
+}
