@@ -981,9 +981,12 @@ body {
 
 .uz-large__detailed__basicInformation-passingScore_position-standart {
     display: inline-block;
+    position: relative;
 }
 
 .uz-large__detailed__basicInformation-passingScore_theme-standart {
+    padding: 24px;
+    box-sizing: border-box;
     width: 904px;
     height: 307px;
     background: #FFFFFF;
@@ -1608,11 +1611,7 @@ body {
     color: #0656B4;
 }
 
-#myfirstchart {
-    padding: 24px;
-    width: 856px;
-    height: 259px;
-}
+#myChart {}
 
 .uz-large__cards-content__button_theme-standart {
     display: none;
