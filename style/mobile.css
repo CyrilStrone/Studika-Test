@@ -1,4 +1,5 @@
 @media screen and (max-width: 520px) {
+    .body {}
     .uz-large_position-mobile {}
     .uz-large_theme-mobile {
         width: 100%;
@@ -7,6 +8,7 @@
     .uz-large__cards_theme-mobile {
         width: 100%;
         height: 368px;
+        border-radius: 0;
     }
     /* uz-large__cards-photo */
     .uz-large__cards-photo__logo_position-mobile {
@@ -167,7 +169,557 @@
     /* uz-large__detailed */
     .uz-large__detailed_position-mobile {}
     .uz-large__detailed_theme-mobile {
+        position: relative;
         width: 100%;
         margin-top: 76px;
     }
+    /*uz-large__detailed__basicInformation */
+    .uz-large__detailed__basicInformation_position-mobile {}
+    .uz-large__detailed__basicInformation_theme-mobile {}
+    .uz-large__detailed__basicInformation-title_position-mobile {}
+    .uz-large__detailed__basicInformation-title_theme-mobile {
+        width: 100%;
+        text-align: center;
+        font-family: 'Formular';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 24px;
+        /* identical to box height, or 104% */
+        /* 222222 основной текст */
+        color: #222222;
+    }
+    .uz-large__detailed__basicInformation-places_position-mobile {}
+    .uz-large__detailed__basicInformation-places_theme-mobile {
+        padding: 16px;
+        box-sizing: border-box;
+        width: 328px;
+        height: 80px;
+        margin-right: 0px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .uz-large__detailed__basicInformation-places__paid_position-mobile {}
+    .uz-large__detailed__basicInformation-places__paid_theme-mobile {
+        width: 140px;
+        height: 48px;
+    }
+    .uz-large__detailed__basicInformation-places__budgetary_position-mobile {}
+    .uz-large__detailed__basicInformation-places__budgetary_theme-mobile {
+        width: 140px;
+        height: 48px;
+    }
+    .uz-large__detailed__basicInformation-places__paid-number_position-mobile {}
+    .uz-large__detailed__basicInformation-places__paid-number_theme-mobile {
+        font-family: 'Formular';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 26px;
+        /* identical to box height, or 113% */
+        /* 0656B4 действие */
+        text-align: left;
+        color: #0656B4;
+        width: 62px;
+        height: 26px;
+    }
+    .uz-large__detailed__basicInformation-places__budgetary-number_position-mobile {}
+    .uz-large__detailed__basicInformation-places__budgetary-number_theme-mobile {
+        font-family: 'Formular';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 26px;
+        /* identical to box height, or 113% */
+        /* 0656B4 действие */
+        text-align: left;
+        color: #0656B4;
+        width: 62px;
+        height: 26px;
+    }
+    /*uz-large__detailed__basicInformation-top */
+    .uz-large__detailed__basicInformation-top_position-mobile {}
+    .uz-large__detailed__basicInformation-top_theme-mobile {
+        padding: 16px;
+        box-sizing: border-box;
+        width: 328px;
+        height: 80px;
+        margin-right: 0px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .uz-large__detailed__basicInformation-top__republic_position-mobile {}
+    .uz-large__detailed__basicInformation-top__republic_theme-mobile {
+        width: 140px;
+        height: 48px;
+    }
+    .uz-large__detailed__basicInformation-top__republic-number_position-mobile {}
+    .uz-large__detailed__basicInformation-top__republic-number_theme-mobile {
+        font-family: 'Formular';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 26px;
+        /* identical to box height, or 113% */
+        text-align: left;
+        /* 222222 основной текст */
+        color: #222222;
+        width: 101px;
+        height: 26px;
+    }
+    .uz-large__detailed__basicInformation-top__republic-name_position-mobile {}
+    .uz-large__detailed__basicInformation-top__republic-name_theme-mobile {}
+    .uz-large__detailed__basicInformation-top__country_position-mobile {}
+    .uz-large__detailed__basicInformation-top__country_theme-mobile {
+        width: 140px;
+        height: 48px;
+    }
+    .uz-large__detailed__basicInformation-top__country-number_position-mobile {}
+    .uz-large__detailed__basicInformation-top__country-number_theme-mobile {
+        font-family: 'Formular';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 26px;
+        /* identical to box height, or 113% */
+        text-align: left;
+        /* 222222 основной текст */
+        color: #222222;
+        width: 110px;
+        height: 26px;
+    }
+    .uz-large__detailed__basicInformation-top__country-name_position-mobile {}
+    .uz-large__detailed__basicInformation-top__country-name_theme-mobile {}
+    /*uz-large__detailed__basicInformation-peculiarities */
+    .uz-large__detailed__basicInformation-peculiarities_position-mobile {}
+    .uz-large__detailed__basicInformation-peculiarities_theme-mobile {
+        padding: 16px;
+        box-sizing: border-box;
+        width: 328px;
+        height: 162px;
+        margin-right: 0px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .uz-large__detailed__basicInformation-peculiarities__block_position-mobile {}
+    .uz-large__detailed__basicInformation-peculiarities__block_theme-mobile {
+        width: 296px;
+        height: 32px;
+    }
+    .uz-large__detailed__basicInformation-peculiarities__block-name_position-mobile {}
+    .uz-large__detailed__basicInformation-peculiarities__block-name_theme-mobile {
+        width: 248px;
+        height: 30px;
+    }
+    .uz-large__detailed__basicInformation-peculiarities__block-icon_position-mobile {}
+    .uz-large__detailed__basicInformation-peculiarities__block-icon_theme-mobile {}
+    .uz-large__detailed__basicInformation-peculiarities__line_position-mobile {}
+    .uz-large__detailed__basicInformation-peculiarities__line_theme-mobile {
+        height: 1;
+        width: 296px;
+    }
+    /*uz-large__detailed__basicInformation-representative*/
+    .uz-large__detailed__basicInformation-representative_position-mobile {
+        position: static;
+        margin-top: 16px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .uz-large__detailed__basicInformation-representative_theme-mobile {
+        padding: 16px;
+        box-sizing: border-box;
+        width: 328px;
+        height: 116px;
+    }
+    .uz-large__detailed__basicInformation-representative__title_position-mobile {}
+    .uz-large__detailed__basicInformation-representative__title_theme-mobile {
+        margin-top: 0px;
+    }
+    .uz-large__detailed__basicInformation-representative__button_position-mobile {}
+    .uz-large__detailed__basicInformation-representative__button_theme-mobile {
+        width: 296px;
+        height: 48px;
+        font-size: 14px;
+    }
+    .uz-large__detailed__basicInformation-title-two_theme-mobile {
+        width: 100%;
+        text-align: center;
+    }
+    .uz-large__detailed__basicInformation-passingScore_position-mobile {
+        display: none;
+    }
+    .uz-large__detailed__basicInformation-passingScoreNo_position-mobile {
+        position: relative;
+        margin-top: 16px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .uz-large__detailed__basicInformation-passingScoreNo_theme-mobile {
+        padding: 24px;
+        width: 328px;
+        height: 373px;
+        box-sizing: border-box;
+        background: #FFFFFF;
+        /* shadow */
+        box-shadow: 0px 7px 13px rgba(49, 71, 129, 0.07);
+        border-radius: 10px;
+    }
+    .uz-large__detailed__basicInformation-passingScoreNo__picture_position-mobile {}
+    .uz-large__detailed__basicInformation-passingScoreNo__picture_theme-mobile {
+        height: 202px;
+        background-image: url(../images/clip-1673\ 1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .uz-large__detailed__basicInformation-passingScoreNo__title_position-mobile {
+        position: absolute;
+        bottom: 24px;
+    }
+    .uz-large__detailed__basicInformation-passingScoreNo__title_theme-mobile {
+        margin: 0;
+        width: 280px;
+        height: 113px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        /* or 167% */
+        text-align: center;
+        /* 767676 дескриптор */
+        color: #767676;
+    }
+    /*uz-large__detailed__specialty_position-mobile*/
+    .uz-large__detailed__specialty_position-mobile {}
+    .uz-large__detailed__specialty_theme-mobile {}
+    .uz-large__detailed__specialty-sorting_position-mobile {
+        display: none;
+    }
+    .uz-large__detailed__specialty-title_position-mobile {
+        margin-top: 40px;
+        margin-bottom: 16px;
+    }
+    .uz-large__detailed__specialty-title_theme-mobile {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 328px;
+        height: 48px;
+    }
+    .uz-large__detailed__specialty-title__name_position-mobile {}
+    .uz-large__detailed__specialty-title__name_theme-mobile {
+        width: 183px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        height: 24px;
+        font-family: 'Formular';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 24px;
+        /* identical to box height, or 104% */
+        /* 222222 основной текст */
+        color: #222222;
+    }
+    .uz-large__detailed__specialty-title__amount_position-mobile {
+        display: none;
+    }
+    .uz-large__detailed__specialty-title__amount_theme-mobile {}
+    .uz-large__detailed__specialty-title__university_position-mobile {
+        display: none;
+    }
+    .uz-large__detailed__specialty-title__university_theme-mobile {}
+    .uz-large__detailed__specialty-title__amountUniversity_position-mobile {
+        margin-top: 4px;
+        display: block;
+    }
+    .uz-large__detailed__specialty-title__amountUniversity_theme-mobile {
+        width: 100%;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        /* identical to box height, or 154% */
+        align-items: center;
+        text-align: center;
+        /* 767676 дескриптор */
+        color: #767676;
+    }
+    /*uz-large__detailed__specialty-block*/
+    .uz-large__detailed__specialty-block_position-mobile {
+        position: relative;
+        margin-top: 0;
+    }
+    .uz-large__detailed__specialty-block_theme-mobile {
+        padding: 16px;
+        box-sizing: border-box;
+        width: 328px;
+        height: 458px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .uz-large__detailed__specialty-block__picture_position-mobile {}
+    .uz-large__detailed__specialty-block__picture_theme-mobile {
+        width: 296px;
+        height: 172px;
+        background-image: url(../images/unpicture6.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .uz-large__detailed__specialty-block__description_position-mobile {
+        margin-left: 0;
+        margin-top: 12px;
+    }
+    .uz-large__detailed__specialty-block__description_theme-mobile {
+        width: 295px;
+        height: 94px;
+    }
+    .uz-large__detailed__specialty-block__description-nameNumber_position-mobile {}
+    .uz-large__detailed__specialty-block__description-nameNumber_theme-mobile {
+        width: 200px;
+        height: 24px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 9px;
+        line-height: 20px;
+        /* or 222% */
+        align-items: center;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        font-feature-settings: 'tnum' on, 'lnum' on;
+        /* 767676 дескриптор */
+        color: #767676;
+    }
+    .uz-large__detailed__specialty-block__description-name_position-mobile {
+        width: 295px;
+        margin-top: 4px;
+    }
+    .uz-large__detailed__specialty-block__description-name_theme-mobile {
+        font-family: 'Formular';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        /* or 122% */
+        /* 222222 основной текст */
+        color: #222222;
+    }
+    .uz-large__detailed__specialty-block__description-block_position-mobile {
+        margin-top: 16px;
+    }
+    .uz-large__detailed__specialty-block__description-block_theme-mobile {
+        width: 296px;
+        height: 72px;
+    }
+    .uz-large__detailed__specialty-block__description-block__form_position-mobile {
+        margin-bottom: 8px;
+    }
+    .uz-large__detailed__specialty-block__description-block__form_theme-mobile {
+        padding: 4px 12px;
+    }
+    .uz-large__detailed__specialty-block__description-specification_position-mobile {}
+    .uz-large__detailed__specialty-block__description-specification_theme-mobile {
+        display: none;
+    }
+    .uz-large__detailed__specialty-block__description-all_position-mobile {}
+    .uz-large__detailed__specialty-block__line_position-mobile {
+        display: none;
+    }
+    .uz-large__detailed__specialty-block__rest_position-mobile {
+        position: absolute;
+        bottom: 16px;
+    }
+    .uz-large__detailed__specialty-block__rest_theme-mobile {
+        width: 296px;
+        height: 40px;
+        margin-left: 0;
+        white-space: nowrap;
+    }
+    .uz-large__detailed__specialty-block__rest-icons_position-mobile {
+        display: none;
+    }
+    .uz-large__detailed__specialty-block__rest-line_position-mobile {}
+    .uz-large__detailed__specialty-block__rest-line_theme-mobile {
+        display: none;
+    }
+    .uz-large__detailed__specialty-block__rest-block_position-mobile {
+        margin-top: 0;
+        display: inline-block;
+    }
+    .uz-large__detailed__specialty-block__rest-block_theme-mobile {
+        width: 98.67px;
+        height: 40px;
+        padding: 0;
+    }
+    .uz-large__detailed__specialty-block__rest-block__name_position-mobile {}
+    .uz-large__detailed__specialty-block__rest-block__name_theme-mobile {
+        width: 98.67px;
+        height: 20px;
+    }
+    .uz-large__detailed__specialty-block__rest-block__number_position-mobile {
+        position: static;
+    }
+    .uz-large__detailed__specialty-block__rest-block__number_theme-mobile {}
+    .uz-large__detailed__specialty-block__rest-line_position-mobile {
+        display: none;
+    }
+    .uz-large__detailed__specialty-block__description-all_position-mobile {
+        display: none;
+    }
+    .mobile-text {
+        display: none;
+    }
+    .carousel-cell {
+        width: 328px;
+        height: 458px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .flickity-page-dots {
+        margin: 0;
+        margin-top: 24px;
+        padding: 0;
+        position: static !important;
+        display: inline-block !important;
+    }
+    .flickity-page-dots .dot {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin: 0 8px;
+        background: #333;
+        border-radius: 50%;
+        opacity: 0.25;
+        cursor: pointer;
+    }
+    .flickity-page-dots .dot.is-selected {
+        opacity: 1;
+    }
+    .uz-large__detailed__specialty-button_position-mobile {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .uz-large__detailed__specialty-button_theme-mobile {
+        width: 328px;
+        height: 48px;
+    }
+    .uz-large__detailed__AboutTheUniversity_position-mobile {
+        margin-top: 56px;
+    }
+    .uz-large__detailed__AboutTheUniversity_theme-mobile {}
+    .uz-large__detailed__AboutTheUniversity-title_position-mobile {}
+    .uz-large__detailed__AboutTheUniversity-title_theme-mobile {}
+    .uz-large__detailed__AboutTheUniversity-title__name_position-mobile {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .uz-large__detailed__AboutTheUniversity-title__name_theme-mobile {
+        width: 200px;
+        height: 24px;
+        font-family: 'Formular';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 24px;
+        /* identical to box height, or 104% */
+        /* 222222 основной текст */
+        color: #222222;
+    }
+    .uz-large__detailed__AboutTheUniversity-title__nameUn_position-mobile {
+        position: static;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 4px;
+    }
+    .uz-large__detailed__AboutTheUniversity-title__nameUn_theme-mobile {
+        text-align: center;
+        width: 169px;
+        height: 20px;
+        /* D M Подписи Open Sans 13 */
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        /* identical to box height, or 154% */
+        align-items: center;
+        /* 767676 дескриптор */
+        color: #767676;
+    }
+    .uz-large__detailed__AboutTheUniversity-pictures_position-mobile {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .uz-large__detailed__AboutTheUniversity-pictures_theme-mobile {
+        width: 328px;
+        height: 254px;
+    }
+    .uz-large__detailed__AboutTheUniversity-pictures__big_position-mobile {}
+    .uz-large__detailed__AboutTheUniversity-pictures__big_theme-mobile {
+        width: 104px;
+        height: 254px;
+    }
+    .uz-large__detailed__AboutTheUniversity-pictures__group-left_position-mobile {
+        left: 112px;
+    }
+    .uz-large__detailed__AboutTheUniversity-pictures__group-left_theme-mobile {
+        width: 104px;
+        height: 254px;
+    }
+    .uz-large__detailed__AboutTheUniversity-pictures__group-left__picture_position-mobile {}
+    .uz-large__detailed__AboutTheUniversity-pictures__group-left__picture_theme-mobile {
+        width: 104px;
+        height: 123px;
+    }
+    .uz-large__detailed__AboutTheUniversity-pictures__group-right_position-mobile {}
+    .uz-large__detailed__AboutTheUniversity-pictures__group-right_theme-mobile {
+        width: 104px;
+        height: 254px;
+    }
+    .uz-large__detailed__AboutTheUniversity-pictures__group-right__picture_position-mobile {}
+    .uz-large__detailed__AboutTheUniversity-pictures__group-right__picture_theme-mobile {
+        width: 104px;
+        height: 123px;
+    }
+    .uz-large__detailed__AboutTheUniversity-description_position-mobile {
+        margin-top: 16px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .uz-large__detailed__AboutTheUniversity-description_theme-mobile {
+        width: 328px;
+        height: 253px;
+    }
+    .uz-large__detailed__AboutTheUniversity-description__h_position-mobile {}
+    .uz-large__detailed__AboutTheUniversity-description__h_theme-mobile {
+        width: 280px;
+        height: 175px;
+        /* M Текст Open Sans 15 */
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        /* or 167% */
+        /* 222222 основной текст */
+        color: #222222;
+    }
+    .uz-large__detailed__AboutTheUniversity-description__all_position-mobile {}
+    .uz-large__detailed__AboutTheUniversity-description__all_theme-mobile {}
 }

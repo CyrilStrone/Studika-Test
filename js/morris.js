@@ -17,7 +17,7 @@ new Morris.Area({
     ],
     xkey: 'year',
     ykeys: ['budget', 'pay'],
-    labels: ['Проходной балл на бюджет: ', 'Проходной балл на платное: '],
+    labels: ['Проходной балл на бюджет', 'Проходной балл на платное'],
     pointSize: 2,
     hideHover: 'auto'
 });

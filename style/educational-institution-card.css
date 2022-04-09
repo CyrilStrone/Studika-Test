@@ -612,7 +612,6 @@ body {
     position: static;
     left: 0px;
     top: 0px;
-    margin-bottom: 16px;
 }
 
 .uz-large__detailed__basicInformation-title_theme-standart {
@@ -1203,7 +1202,6 @@ body {
 
 .uz-large__detailed__specialty-block__description-name_theme-standart {
     width: 409px;
-    height: 24px;
     /* D H4 Formular 18 */
     font-family: 'Formular';
     font-style: normal;
@@ -1617,5 +1615,13 @@ body {
 }
 
 .uz-large__cards-content__button_theme-standart {
+    display: none;
+}
+
+.uz-large__detailed__basicInformation-passingScoreNo_position-standart {
+    display: none;
+}
+
+.uz-large__detailed__specialty-title__amountUniversity_position-standart {
     display: none;
 }
