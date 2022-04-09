@@ -1625,3 +1625,7 @@ body {
 .uz-large__detailed__specialty-title__amountUniversity_position-standart {
     display: none;
 }
+
+.carousel {
+    display: none;
+}

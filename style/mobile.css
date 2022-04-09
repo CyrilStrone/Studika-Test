@@ -477,12 +477,12 @@
         background-size: cover;
     }
     .uz-large__detailed__specialty-block__description_position-mobile {
+        position: static;
         margin-left: 0;
         margin-top: 12px;
     }
     .uz-large__detailed__specialty-block__description_theme-mobile {
-        width: 295px;
-        height: 94px;
+        height: auto;
     }
     .uz-large__detailed__specialty-block__description-nameNumber_position-mobile {}
     .uz-large__detailed__specialty-block__description-nameNumber_theme-mobile {
@@ -521,6 +521,8 @@
     .uz-large__detailed__specialty-block__description-block_theme-mobile {
         width: 296px;
         height: 72px;
+        position: static;
+        display: block;
     }
     .uz-large__detailed__specialty-block__description-block__form_position-mobile {
         margin-bottom: 8px;
@@ -537,8 +539,8 @@
         display: none;
     }
     .uz-large__detailed__specialty-block__rest_position-mobile {
-        position: absolute;
-        bottom: 16px;
+        position: static;
+        margin-top: 16px;
     }
     .uz-large__detailed__specialty-block__rest_theme-mobile {
         width: 296px;
@@ -579,6 +581,9 @@
     }
     .mobile-text {
         display: none;
+    }
+    .carousel {
+        display: block;
     }
     .carousel-cell {
         width: 328px;
@@ -722,4 +727,7 @@
     }
     .uz-large__detailed__AboutTheUniversity-description__all_position-mobile {}
     .uz-large__detailed__AboutTheUniversity-description__all_theme-mobile {}
+    .notCarousel {
+        display: none;
+    }
 }
